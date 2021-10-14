@@ -1,0 +1,5 @@
+truffle console
+contract = await Celestial.deployed()
+
+await contract.mint("MARS")
+await contract.mint("SATURN")
